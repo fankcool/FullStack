@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ptj-wb-LWQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="ZTR-4u-jvc">
+            <objects>
+                <viewController id="ptj-wb-LWQ" customClass="LoginViewController" customModule="WorldPeaceIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TPR-o5-cbH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENU-KQ-Yjs">
+                                <rect key="frame" x="177.5" y="324.5" width="59" height="47"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="29"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClick:" destination="ptj-wb-LWQ" eventType="touchUpInside" id="A7w-yM-CR4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMm-Wz-Omq">
+                                <rect key="frame" x="191.5" y="433" width="31" height="30"/>
+                                <state key="normal" title="注册"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="ptj-wb-LWQ" eventType="touchUpInside" id="yyd-Eu-YbE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnG-je-E5R">
+                                <rect key="frame" x="176" y="533" width="62" height="30"/>
+                                <state key="normal" title="找回密码"/>
+                                <connections>
+                                    <action selector="btnClick:" destination="ptj-wb-LWQ" eventType="touchUpInside" id="K1h-AO-fiL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B3L-mT-5Cx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bnG-je-E5R" firstAttribute="centerX" secondItem="TPR-o5-cbH" secondAttribute="centerX" id="72Y-2Y-Wfs"/>
+                            <constraint firstItem="ENU-KQ-Yjs" firstAttribute="centerX" secondItem="TPR-o5-cbH" secondAttribute="centerX" id="7ul-Rg-aWw"/>
+                            <constraint firstItem="gMm-Wz-Omq" firstAttribute="centerY" secondItem="TPR-o5-cbH" secondAttribute="centerY" id="IMe-e9-jrz"/>
+                            <constraint firstItem="gMm-Wz-Omq" firstAttribute="centerX" secondItem="TPR-o5-cbH" secondAttribute="centerX" id="Im7-Gd-jOb"/>
+                            <constraint firstItem="bnG-je-E5R" firstAttribute="centerY" secondItem="TPR-o5-cbH" secondAttribute="centerY" constant="100" id="WiI-Uh-7rs"/>
+                            <constraint firstItem="ENU-KQ-Yjs" firstAttribute="centerY" secondItem="TPR-o5-cbH" secondAttribute="centerY" constant="-100" id="caK-3D-MWS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LK8-vq-cpr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="187" y="160"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

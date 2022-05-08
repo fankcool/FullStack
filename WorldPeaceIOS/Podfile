@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'WorldPeaceIOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for WorldPeaceIOS
+  
+  #ui
+  pod 'SnapKit', '4.0.1'
+  
+  #hud
+  pod 'SVProgressHUD'
+  
+  #net & data
+  pod 'Alamofire', '4.8.1'
+  pod 'SwiftyJSON', '4.1.0'
+  pod 'HandyJSON', '5.0.2'
+  
+  #image
+  pod 'Kingfisher'
+  
+  #transition
+  pod 'Hero'
+  
+  pod 'R.swift'
+
+end

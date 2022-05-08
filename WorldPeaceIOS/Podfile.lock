@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.8.1)
+  - HandyJSON (5.0.2)
+  - Hero (1.6.1)
+  - Kingfisher (6.3.0)
+  - R.swift (6.1.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.1)
+  - HandyJSON (= 5.0.2)
+  - Hero
+  - Kingfisher
+  - R.swift
+  - SnapKit (= 4.0.1)
+  - SVProgressHUD
+  - SwiftyJSON (= 4.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - Hero
+    - Kingfisher
+    - R.swift
+    - R.swift.Library
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Hero: 215865ba3ae41dd9bb08cd6c60a645529c6fc94b
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: db59d33d1cfce7f85e980865a3b84f9f563ede7a
+
+COCOAPODS: 1.10.0
