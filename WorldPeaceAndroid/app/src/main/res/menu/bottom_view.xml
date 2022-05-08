@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/tabBar_home"
+        android:icon="@drawable/tab_bar_btn_home_selector"
+        android:title="首页" />
+    <item
+        android:id="@+id/tabBar_square"
+        android:icon="@drawable/tab_bar_btn_mine_selector"
+        android:title="发现" />
+
+    <item
+        android:id="@+id/tabBar_shop"
+        android:icon="@drawable/tab_bar_btn_home_selector"
+        android:title="商店" />
+
+    <item
+        android:id="@+id/tabBar_mine"
+        android:icon="@drawable/tab_bar_btn_mine_selector"
+        android:title="我的" />
+
+</menu>

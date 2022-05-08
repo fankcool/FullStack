@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- navigationView 图片文字间距 -->
+    <dimen tools:override="true" name="design_bottom_navigation_margin">12dp</dimen>
+
+    <!-- navigationView 底部导航栏默认高度56dp，如下可以设置 -->
+<!--    <dimen tools:override="true" name="design_bottom_navigation_height">84dp</dimen>-->
+
+    <dimen name="back_btn_width">42dp</dimen>
+    <dimen name="back_btn_height">42dp</dimen>
+    <dimen name="back_btn_padding">13dp</dimen>
+    <dimen name="back_btn_margin_left">2dp</dimen>
+
+    <dimen name="back_title_size">18sp</dimen>
+    <dimen name="back_title_size_unSel">16sp</dimen>
+
+    <dimen name="back_title_size_code">7sp</dimen>
+    <dimen name="back_title_size_unSel_code">6sp</dimen>
+
+    <dimen name="choose_info_btn_text_size">14sp</dimen>
+
+    <dimen name="main_fragment_margin_top">5dp</dimen>
+    <dimen name="main_fragment_margin_left">20dp</dimen>
+    <dimen name="main_fragment_title_text_size">16sp</dimen>
+    <dimen name="main_fragment_content_text_size">20sp</dimen>
+    <dimen name="main_fragment_ops_btn_size">65dp</dimen>
+    <dimen name="main_fragment_ops_btn_text_size">10sp</dimen>
+
+    <dimen name="push_alert_dialog_composition_correction_btn_width">70dp</dimen>
+    <dimen name="push_alert_dialog_composition_correction_text_size">10sp</dimen>
+
+    <dimen name="note_detail_btn_size">70dp</dimen>
+    <dimen name="note_detail_btn_text_size">12sp</dimen>
+
+    <dimen name="my_notes_item_notes_img_width">155dp</dimen>
+    <dimen name="my_notes_item_notes_img_height">200dp</dimen>
+
+    <dimen name="my_notes_ops_btn_size">50dp</dimen>
+
+</resources>

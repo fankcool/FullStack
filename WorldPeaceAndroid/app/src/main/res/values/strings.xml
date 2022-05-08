@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">洛耀生</string>
+
+    <string name="login_title">欢迎登录</string>
+    <string name="login_description">记录宝贝学习，见证宝贝成长</string>
+    <string name="login_on_key_login">本机号码一键登录</string>
+    <string name="login_other_phone_login">其他手机号码登录</string>
+
+    <string name="login_phone_login">登录</string>
+
+    <string name="editText_hint"><font size="15">请输入手机号</font></string>
+    <string name="editText_sms_code_hint"><font size="15">请输入验证码</font></string>
+
+    <string name="main_fragment_title_home">首页</string>
+    <string name="main_fragment_title_square">广场</string>
+    <string name="main_fragment_title_shop">商城</string>
+    <string name="main_fragment_title_mine">我的</string>
+
+    <string name="device_connect_text_step_one">请先将智能笔笔帽打开，白灯常亮即证明笔进入待搜索状态。</string>
+    <string name="device_connect_text_step_two">请勾选要连接的智能笔：</string>
+</resources>
