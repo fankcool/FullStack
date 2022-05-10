@@ -17,7 +17,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENU-KQ-Yjs">
-                                <rect key="frame" x="179" y="333" width="56" height="30"/>
+                                <rect key="frame" x="177" y="333" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="success">
                                     <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
@@ -27,13 +28,15 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMm-Wz-Omq">
                                 <rect key="frame" x="192" y="433" width="30" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="fail"/>
                                 <connections>
                                     <action selector="btnClick:" destination="ptj-wb-LWQ" eventType="touchUpInside" id="yyd-Eu-YbE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnG-je-E5R">
-                                <rect key="frame" x="164.5" y="533" width="85" height="30"/>
+                                <rect key="frame" x="161.5" y="533" width="91" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="push to next">
                                     <color key="titleColor" red="0.18823529779911041" green="0.81960785388946533" blue="0.34509804844856262" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
