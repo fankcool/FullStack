@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  banner:
+    location: banner_beauty.txt # 默认是classpath下的banner.txt，classpath可省略
+
+swagger:
+  docket:
+    groupone:
+      title: 第一组
+      base-package: com.fank.swagger2_test.controller
+    grouptwo:
+      title: 第二222组
+      base-package: com.fank.swagger2_test.secondController
+  version: v1.0.2

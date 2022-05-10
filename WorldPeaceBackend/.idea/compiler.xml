@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka_test_consumer" />
+        <module name="hot-reload" />
+        <module name="mongodb_comment" />
+        <module name="redis-redisson" />
+        <module name="provider-ticket" />
+        <module name="eureka-server" />
+        <module name="consumer-user" />
+        <module name="kafka_test" />
+        <module name="swagger2_test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer-user" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="hot-reload" target="1.8" />
+      <module name="kafka_test" target="1.8" />
+      <module name="kafka_test_consumer" target="1.8" />
+      <module name="mongodb_comment" target="1.8" />
+      <module name="provider-ticket" target="1.8" />
+      <module name="redis-redisson" target="1.8" />
+      <module name="swagger2_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-user" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="hot-reload" options="-parameters" />
+      <module name="kafka_test" options="-parameters" />
+      <module name="kafka_test_consumer" options="-parameters" />
+      <module name="mongodb_comment" options="-parameters" />
+      <module name="provider-ticket" options="-parameters" />
+      <module name="redis-redisson" options="-parameters" />
+      <module name="swagger2_test" options="-parameters" />
+    </option>
+  </component>
+</project>

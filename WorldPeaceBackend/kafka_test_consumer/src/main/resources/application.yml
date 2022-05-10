@@ -1,0 +1,19 @@
+server:
+  port: 8085
+
+spring:
+  kafka:
+    # 指定kafka代理地址，可以是多个kafka地址
+    bootstrap-servers: localhost:9092,localhost:9093,localhost:9094
+
+    # ---------------- 消费者配置 ----------------
+    consumer:
+      group-id: fankGroup # 指定默认消费者组名，由于kafka中同一组consumer不会读取同一个消息
+
+      auto-offset-reset: earliest
+
+      enable-auto-commit: true # 是否自动提交offset
+      auto-commit-interval: 100 # 上一行自动提交offset时，此行为提交的频率，单位毫秒，默认为5000
+
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer

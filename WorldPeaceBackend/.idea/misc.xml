@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/hot-reload/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger2_test/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodb_comment/pom.xml" />
+        <option value="$PROJECT_DIR$/6.mongodb_comment/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka_test/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka_test_consumer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/6.mongodb_comment/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

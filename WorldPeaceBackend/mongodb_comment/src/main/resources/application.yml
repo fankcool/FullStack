@@ -1,0 +1,27 @@
+#logging:
+#  level:
+#    root: trace
+
+server:
+  port: 8085
+
+spring:
+  data:
+    mongodb:
+#      host: localhost # 主机地址
+#      database: fank # 数据库名
+#      port: 27017 # 默认端口
+
+#      username: fank
+#      password: '123456'
+#      uri: mongodb://locke:123456@localhost:28017/fank # 也可以使用uri
+
+      uri: mongodb://39.105.13.11:27017,39.105.13.11:27018,39.105.3.209:27017/fank?connect=replicaSet&slaveOk=true&replicaSet=myrs # 连副本集集群
+#      uri: mongodb://172.17.255.66:27017,172.17.255.66:27018,172.17.255.65:27017/myscript-server?connect=replicaSet&slaveOk=true&replicaSet=myrs # 连副本集集群
+#      uri: mongodb://172.17.255.66:27017,172.17.255.66:27018,172.17.255.65:27017/myscript-server?connect=replicaSet&slaveOk=true&replicaSet=myrs&readPreference=nearest # 连副本集集群
+#      uri: mongodb://localhost:27017,localhost:27018,localhost:27019/MongoDB1?connect=replicaSet&slaveOk=true&replicaSet=myrs # 连副本集集群
+#      uri: mongodb://localhost:27017,localhost:27117/fank # 连分片集集群
+
+      # 连需认证的副本集集群
+#      uri: mongodb://fank:123456@localhost:27017,localhost:27018,localhost:27019/fank?connect=replicaSet&slaveOk=true&replicaSet=myrs
+#      uri: mongodb://fank:123456@localhost:27017,localhost:27117/fank # 连需认证的分片集集群

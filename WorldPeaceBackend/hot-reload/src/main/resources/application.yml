@@ -1,0 +1,6 @@
+server:
+  port: 8089
+
+spring:
+  banner:
+    location: banner_beauty.txt # 默认是classpath下的banner.txt，classpath可省略
